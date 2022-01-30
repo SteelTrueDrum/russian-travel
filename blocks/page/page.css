@@ -1,4 +1,20 @@
 .page {
   color: #FFFFFF;
   background-color: #2A2C2F;
+  font-family: 'Inter';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div {
+  border: 1px solid red;
+}
+
+section {
+  border: 1px solid blueviolet;
+}
+
+article {
+  border: 1px solid blue;
 }
