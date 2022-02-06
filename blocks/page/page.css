@@ -1,10 +1,12 @@
 .page {
   color: #FFFFFF;
   background-color: #2A2C2F;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  min-width: 320px;
 }
 
 div {
@@ -17,4 +19,12 @@ section {
 
 article {
   border: 1px solid blue;
+}
+
+header, footer {
+  border: 1px solid cyan;
+}
+
+main {
+  border: 1px solid forestgreen;
 }

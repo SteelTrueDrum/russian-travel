@@ -5,4 +5,10 @@
   font-size: 24px;
   line-height: 1.15;
   display: inline-block;
+  /* margin-right: ; */
+  margin: 0 18px 0 0;
+}
+
+.header__lang-link:nth-of-type(2n){
+  margin: 0;
 }
