@@ -1,6 +1,9 @@
 .places {
   display: grid;
   gap: 80px;
-  grid-template-columns: 1fr;
+  grid-template-columns: fit-content;
   justify-items: center;
 }
+
+
+

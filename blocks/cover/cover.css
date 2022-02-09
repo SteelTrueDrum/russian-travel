@@ -1,5 +1,20 @@
 .cover {
-  width: 1184px;
   max-width: 1184px;
-  height: 740px;
+  box-sizing: border-box;
+  width: 92%;
+
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    width: 320px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    width: 320px;
+    height: 200px;
+  }
 }

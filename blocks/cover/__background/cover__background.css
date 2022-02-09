@@ -1,13 +1,15 @@
 .cover__background {
   background-image: url(../../../images/cover-trains.jpg);
-  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  box-sizing: border-box;
+  height: auto;
 }
 
 .cover__background::before {
@@ -24,3 +26,4 @@
 .cover__background:hover::before {
   opacity: 0.8;
 }
+

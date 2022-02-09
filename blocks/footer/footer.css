@@ -2,7 +2,27 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  width: 92vw;
   max-width: 1184px;
   align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+  margin: 64px 118px 24px 16px;
+  max-width: 186px;
+  align-items: flex-start;
+  }
 }
