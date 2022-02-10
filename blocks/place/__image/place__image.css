@@ -1,5 +1,5 @@
 .place__image {
   max-width: 100%;
   grid-area: pic;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
