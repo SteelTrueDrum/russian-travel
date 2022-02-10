@@ -3,7 +3,7 @@
   grid-template-columns: fit-content;
   row-gap: 92px;
   justify-content: center;
-  max-width: 1280px;
-  /* width: 100%; */
   justify-items: center;
+  max-width: 1280px;
+  width: 99%;
 }

@@ -8,7 +8,6 @@
   grid-template-areas:
     'title website'
     'pic text';
-
 }
 
 @media screen and (max-width: 600px) {

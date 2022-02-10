@@ -11,31 +11,6 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-
   width: 100%;
   min-width: 320px;
-}
-
-div {
-  border: 1px solid red;
-}
-
-section {
-  border: 1px solid blueviolet;
-}
-
-article {
-  border: 1px solid blue;
-}
-
-header, footer {
-  border: 1px solid cyan;
-}
-
-main {
-  border: 1px solid forestgreen;
-}
-
-@media screen and (max-width: 400px) {
-
 }

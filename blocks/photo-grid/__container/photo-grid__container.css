@@ -7,6 +7,5 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   justify-items: center;
-
   width: 92vw;
 }

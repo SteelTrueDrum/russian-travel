@@ -2,14 +2,6 @@
   max-width: 1184px;
   box-sizing: border-box;
   width: 92%;
-
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    width: 320px;
-    height: 200px;
-  }
 }
 
 @media screen and (max-width: 320px) {
