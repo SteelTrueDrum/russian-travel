@@ -22,7 +22,7 @@
   left: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
-  transition: opacity 0.3s ;
+  transition: opacity 0.3s;
 }
 .cover__link:hover::before  {
   opacity: 0.8;
