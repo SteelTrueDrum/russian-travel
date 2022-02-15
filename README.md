@@ -9,4 +9,5 @@
 - Адаптивная верстка;
 - выполнена по макету в Figma
 
+
 ссылка на GitHub Pages: https://steeltruedrum.github.io/russian-travel/
