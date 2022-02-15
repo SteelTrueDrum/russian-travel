@@ -1,9 +1,24 @@
 .content {
   display: grid;
-  grid-template-columns: fit-content;
+  grid-template-columns: 1fr;
   row-gap: 92px;
   justify-content: center;
   justify-items: center;
+  min-height: 100%;
   max-width: 1280px;
-  width: 99%;
+  overflow: hidden;
+  margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .content {
+    row-gap: 64px;
+  }
+}
+

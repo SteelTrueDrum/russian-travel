@@ -8,6 +8,18 @@
   max-width: 984px;
 }
 
+@media screen and (max-width: 1230px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .lead  {
+    max-width: 928px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead  {
     width: 320px;

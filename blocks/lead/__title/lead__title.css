@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1.04;
+  line-height: 100px;
   text-align: center;
   max-width: 720px;
   margin: 0 0 32px;
@@ -12,6 +12,7 @@
   .lead__title  {
     font-size: 72px;
     max-width: 520px;
+    line-height: 1.1;
   }
 }
 
@@ -26,7 +27,6 @@
 @media screen and (max-width: 450px) {
   .lead__title  {
     font-size: 40px;
-    line-height: 44px;
     margin: 0 0 16px;
     max-width: 288px;
   }

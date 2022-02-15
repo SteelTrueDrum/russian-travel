@@ -2,20 +2,14 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.63;
-  margin: 0 0 26px;
+  line-height: 1.61;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 163%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__paragraph {
-    margin: 0 auto 25px auto;
-    max-width: 90%;
+    margin: 0;
   }
 }

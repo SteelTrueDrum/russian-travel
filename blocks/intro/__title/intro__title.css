@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 1.08;
+  line-height: 58px;
   min-height: 58px;
   margin: 0 0 40px;
 }
@@ -16,8 +16,7 @@
 
 @media screen and (max-width: 400px) {
   .intro__title {
-    max-width: 288px;
+    max-width: 240px;
     font-size: 32px;
-    line-height: 35px;
   }
 }

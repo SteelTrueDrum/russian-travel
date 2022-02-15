@@ -7,3 +7,6 @@
 - Файловая структура выполнена по БЭМ.Nested;
 - Применение сеток flexbox и grid;
 - Адаптивная верстка;
+- выполнена по макету в Figma
+
+ссылка на GitHub Pages: https://steeltruedrum.github.io/russian-travel/

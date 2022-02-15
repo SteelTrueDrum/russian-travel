@@ -5,4 +5,30 @@
   width: 98%;
   box-sizing: border-box;
   min-width: 288px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1030px) {
+  .intro {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 100%;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 95.75%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .intro {
+    max-width: 288px;
+  }
 }

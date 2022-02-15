@@ -1,0 +1,9 @@
+.place__paragraph_last {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph_last {
+    margin-top: 25px;
+  }
+}

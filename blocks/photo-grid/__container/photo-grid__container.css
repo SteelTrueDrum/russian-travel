@@ -7,5 +7,38 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   justify-items: center;
-  width: 92vw;
+}
+
+@media screen and (max-width: 1230px) {
+  .photo-grid__container {
+    max-width: 92vw;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .photo-grid__container {
+    width: 928px;
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__container {
+    max-width: 94vw;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .photo-grid__container {
+    max-width: 92vw;
+    gap: 16px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .photo-grid__container {
+    gap: 12px;
+  }
 }

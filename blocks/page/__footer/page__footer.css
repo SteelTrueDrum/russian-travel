@@ -2,8 +2,16 @@
   margin: 92px auto 24px;
 }
 
+@media screen and (max-width: 768px) {
+  .page__footer {
+  margin: 88px 24px 24px 24px;
+  }
+}
+
+
 @media screen and (max-width: 400px) {
   .page__footer {
   margin: 64px 118px 24px 16px;
   }
 }
+

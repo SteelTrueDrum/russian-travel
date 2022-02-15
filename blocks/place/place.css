@@ -4,10 +4,26 @@
   display: grid;
   row-gap: 48px;
   column-gap: 40px;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
   grid-template-areas:
     'title website'
     'pic text';
+}
+
+@media screen and (max-width: 1030px) {
+  .place {
+    max-width: 928px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px ;
+    max-width: 720px;
+    column-gap: 28px;
+    row-gap: 47.5px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -18,5 +34,13 @@
     'website'
     'pic'
     'text';
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    max-width: 320px;
+    column-gap: 12px;
+    row-gap: 31.5px;
   }
 }

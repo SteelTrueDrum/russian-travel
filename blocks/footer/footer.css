@@ -2,27 +2,33 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 92vw;
-  max-width: 1184px;
+  width: calc(100% - 82px);
   align-items: center;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 990px) {
   .footer {
-    max-width: 90.625%;
+    width: 717px;
   }
 }
+
 
 @media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
+    max-width: 186px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .footer {
-  margin: 64px 118px 24px 16px;
   max-width: 186px;
   align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+  max-width: 186px;
   }
 }
