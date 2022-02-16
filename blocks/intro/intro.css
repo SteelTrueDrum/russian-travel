@@ -16,14 +16,15 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 100%;
+    width: 92.6%;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 95.75%;
+    width: 95.75%;
+
   }
 }
 
